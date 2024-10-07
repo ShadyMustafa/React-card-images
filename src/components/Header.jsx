@@ -20,9 +20,14 @@ export function Header(){
             </div>
             )}
             {!show && (
-                <ul id="react">
-                    {current.about.map((info)=><li onClick={()=>showHide()}>{info}</li>)}
-                </ul>
+                <>
+                    
+                    <ul id="react">
+                        {current.name} <hr/>
+                        {current.about.map((info)=>
+                        <li onClick={()=>showHide()}>{info}</li>)}
+                    </ul>
+                </>
             )}
         </div>
     )

@@ -46,7 +46,7 @@ export const data = [
 ]
 
  export const current = {
-    name: 'PHP',
+    name: 'React',
     img: React,
     about: ['Web Development' , 2013 , 'Jordan Walke']
 }
