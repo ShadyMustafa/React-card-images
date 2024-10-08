@@ -47,3 +47,6 @@ color: white;
 .headerWrapper{
   cursor: pointer;
 }
+img{
+  border-radius: 50px;
+}

@@ -2,7 +2,7 @@ import { useState } from "react"
 import { current } from "../data/data"
 export function Header(){
 
-    const [show,setShow] = useState(false)
+    const [show,setShow] = useState(true)
 
     function showHide(){
         if(show === false){
